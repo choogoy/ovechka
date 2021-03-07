@@ -123,7 +123,11 @@ button {
     &-img {
       position: absolute;
       top: 4px;
-
+    }
+    &-info {
+      font-size: 12px;
+      line-height: 16px;
+      color: #D3356C;
     }
     &:last-child {
       margin-bottom: 0;
@@ -147,7 +151,7 @@ button {
       &:hover {
         & .hover {
           fill: white;
-      }
+        }
       }
     }
     &__link {

@@ -154,6 +154,12 @@ button {
   top: 4px;
 }
 
+.footer__item-info {
+  font-size: 12px;
+  line-height: 16px;
+  color: #D3356C;
+}
+
 .footer__item:last-child {
   margin-bottom: 0;
 }
