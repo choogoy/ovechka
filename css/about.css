@@ -1,0 +1,245 @@
+@media (max-width: 1300px) {
+  .about__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-height: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto 60px;
+  }
+  .about__info {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about__info-wrapper {
+    max-width: none;
+    width: 100%;
+  }
+  .about__info-wrapper--scroll {
+    max-width: none;
+    overflow-y: scroll;
+  }
+  .about__slider {
+    width: 720px;
+    height: 521px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .about__slider-img {
+    max-width: 720px;
+    height: 521px;
+  }
+  .about .container {
+    max-width: 936px;
+  }
+  .features {
+    padding-bottom: 7px;
+  }
+  .features__items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+  }
+  .features__item {
+    width: calc(100% / 3);
+    border-right: none;
+    margin-bottom: 30px;
+  }
+  .brands__title {
+    max-width: 1010px;
+    margin: 0 auto 60px;
+    padding-right: 15px;
+  }
+  .brands-slider {
+    overflow: hidden;
+  }
+  .brands .container {
+    padding: 0;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .brands__title {
+    max-width: 804px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about__content {
+    max-width: 750px;
+  }
+  .about .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 900px) {
+  .brands__title {
+    max-width: 598px;
+  }
+}
+
+@media (max-width: 780px) {
+  .about {
+    padding: 50px 0 30px;
+  }
+  .about__content {
+    max-width: 570px;
+  }
+  .about__slider {
+    max-width: 570px;
+    height: 400px;
+  }
+  .about__slider-img {
+    width: 570px;
+    height: 400px;
+  }
+  .about__title {
+    width: 570px;
+    margin: 0 auto 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .features {
+    overflow: hidden;
+  }
+  .features__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 680px) {
+  .brands {
+    padding: 50px 0 50px;
+  }
+  .brands__title {
+    max-width: 392px;
+    margin-bottom: 30px;
+  }
+  .brands-slider__item {
+    min-width: auto;
+    width: 150px;
+    height: 80px;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+  .brands-slider__img {
+    width: 110px;
+    height: 60px;
+  }
+  .brands-slider .slick-list {
+    max-width: 620px;
+    margin-left: 0;
+    overflow: hidden;
+  }
+  .brands-slider .slick-slide {
+    max-width: 150px;
+    width: 150px;
+  }
+  .brands .container {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .about__slider {
+    width: 465px;
+    height: 300px;
+  }
+  .about__slider-img {
+    width: 465px;
+    height: 300px;
+  }
+  .about .container {
+    padding: 0 10px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 590px) {
+  .about__title {
+    max-width: 465px;
+    margin-bottom: 30px;
+  }
+  .about__content {
+    max-width: 465px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__content {
+    max-width: 310px;
+  }
+  .about__title {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  .about__info-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-right: 5px;
+    margin-right: 0px;
+  }
+  .about__info-wrapper p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .about__info-wrapper::-webkit-scrollbar {
+    width: 6px;
+  }
+  .about__info-wrapper::-webkit-scrollbar-thumb {
+    background: #FFB000;
+    border-radius: 10px;
+  }
+  .about__info-wrapper::-webkit-scrollbar-track {
+    background: #F2F2F2;
+    border-radius: 10px;
+  }
+  .about__slider {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    border-radius: 10px;
+    width: 310px;
+    height: 210px;
+  }
+  .about__slider-img {
+    width: 310px;
+    height: 210px;
+  }
+  .about__slider .slick-dots {
+    bottom: 10px;
+    right: 15px;
+    line-height: 10px;
+  }
+  .about__slider .slick-dots li {
+    margin-left: 10px;
+  }
+  .about__slider .slick-dots button {
+    width: 10px;
+    height: 10px;
+  }
+  .about .container {
+    padding: 0;
+  }
+  .features {
+    border-radius: 0;
+    padding: 20px 0 0;
+  }
+  .features__item {
+    height: auto;
+    padding: 0 10px;
+  }
+  .features__item-text {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .brands {
+    padding-top: 50px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

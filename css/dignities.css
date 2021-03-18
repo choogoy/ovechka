@@ -1,0 +1,120 @@
+@media (max-width: 1300px) {
+  .dignities__content {
+    max-width: 936px;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dignities__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 360px;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .dignities__item {
+    width: 430px;
+    height: 154px;
+    margin-bottom: 20px;
+  }
+  .dignities__bg {
+    margin-bottom: 20px;
+  }
+  .dignities .container {
+    max-width: 936px;
+  }
+}
+
+@media (max-width: 992px) {
+  .dignities {
+    padding: 50px 0;
+  }
+  .dignities__content {
+    max-width: 750px;
+  }
+  .dignities__items {
+    height: 440px;
+  }
+  .dignities__item {
+    width: 340px;
+    min-height: 200px;
+  }
+  .dignities .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 790px) {
+  .dignities__content {
+    max-width: 570px;
+  }
+  .dignities__items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-column-count: 1;
+            column-count: 1;
+    height: auto;
+  }
+  .dignities__item {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+  .dignities .container {
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 590px) {
+  .dignities__content {
+    max-width: 465px;
+  }
+  .dignities__title {
+    margin-bottom: 30px;
+  }
+  .dignities__img {
+    width: 100%;
+  }
+  .dignities .container {
+    max-width: 465px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dignities__content {
+    max-width: 310px;
+  }
+  .dignities__item-title {
+    font-size: 16px;
+  }
+  .dignities__item-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .dignities__item:before {
+    font-size: 80px;
+  }
+  .dignities .container {
+    max-width: 310px;
+  }
+}
+/*# sourceMappingURL=dignities.css.map */

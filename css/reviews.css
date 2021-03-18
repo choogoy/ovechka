@@ -1,0 +1,211 @@
+@media (max-width: 1300px) {
+  .reviews__content {
+    max-width: 936px;
+  }
+  .reviews-slider {
+    max-width: 612px;
+  }
+  .reviews .container {
+    max-width: 936px;
+  }
+}
+
+@media (max-width: 992px) {
+  .reviews__content {
+    max-width: 750px;
+  }
+  .reviews__tabs {
+    width: 288px;
+    margin-right: 40px;
+  }
+  .reviews__tabs-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reviews-slider {
+    max-width: 306px;
+  }
+  .reviews .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 680px) {
+  .reviews {
+    padding: 50px 0 200px;
+    overflow: hidden;
+  }
+  .reviews__content {
+    position: relative;
+  }
+  .reviews__header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .reviews__header .more-btn {
+    display: none;
+  }
+  .reviews__tabs {
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 455px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto 20px;
+  }
+  .reviews__tabs-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .reviews__tabs-container {
+    width: 306px;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+  .reviews__tabs-container .brands-slider__btn--next {
+    right: -10px;
+  }
+  .reviews__tabs-container .tabs-content.tabs-content--active:after {
+    right: -10px;
+  }
+  .reviews__tab {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reviews__tab + .reviews__tab {
+    margin-left: 15px;
+  }
+  .reviews__tab span {
+    font-size: 11px;
+    line-height: 130%;
+    padding-left: 0;
+    padding: 0 25px;
+  }
+  .reviews__tab img {
+    position: static;
+    margin-bottom: 5px;
+  }
+  .reviews__tab:after {
+    height: 5px;
+    width: 100%;
+    bottom: -1px;
+    right: 0;
+  }
+  .reviews__text {
+    max-width: 455px;
+    position: absolute;
+    bottom: -150px;
+  }
+  .reviews__text .more-btn {
+    display: block;
+  }
+  .reviews__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+  }
+  .reviews__add-review-btn {
+    margin-top: 0;
+  }
+  .reviews-slider {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .reviews__tabs {
+    width: auto;
+    margin-bottom: 10px;
+    max-width: 360px;
+  }
+  .reviews__tab {
+    width: 80px;
+    height: 80px;
+  }
+  .reviews__tab + .reviews__tab {
+    margin-left: 10px;
+  }
+  .reviews__tab span {
+    padding: 0 15px;
+  }
+  .reviews__text {
+    max-width: 350px;
+    position: absolute;
+    bottom: -200px;
+    font-size: 13px;
+  }
+  .reviews__buttons .more-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reviews__buttons .more-btn span {
+    font-size: 12px;
+  }
+  .reviews__add-review-btn {
+    width: 144px;
+    height: 41px;
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .reviews__tab {
+    width: 75px;
+    height: 75px;
+  }
+  .reviews__tab + .reviews__tab {
+    margin-left: 5px;
+  }
+  .reviews__text {
+    max-width: 300px;
+    padding: 0 5px;
+  }
+  .reviews__buttons .more-btn span {
+    font-size: 10px;
+  }
+  .reviews .container {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=reviews.css.map */
