@@ -3184,7 +3184,7 @@ button {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  background-image: url("/images/review-border.svg");
+  background-image: url("../images/review-border.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
