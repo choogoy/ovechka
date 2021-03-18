@@ -406,7 +406,7 @@ button {
   position: absolute;
   width: 18px;
   height: 18px;
-  background-image: url("/images/icons/search-icon.svg");
+  background-image: url("../images/icons/search-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   right: 26px;
@@ -699,7 +699,7 @@ button {
 .catalog-menu__btn:before {
   content: "";
   position: absolute;
-  background-image: url("/images/icons/catalog-btn-icon.svg");
+  background-image: url("../images/icons/catalog-btn-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 23px;
